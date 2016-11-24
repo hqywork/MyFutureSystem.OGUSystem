@@ -1,0 +1,35 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "title": "HQY.FutureOGU.Infrastructure",
+    "description": "华奇英工作室未来系统—组织机构用户基础设施",
+    "authors": [ "HQYWORK" ],
+    "copyright": "Copyright © HQYWORK",
+    "packOptions": {
+        "owners": [ "ZHANGQ" ],
+        "tags": [ "Future System", "OGU", "Infrastructure", "DDD" ],
+        "projectUrl": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/OGUSystem",
+        "repository": {
+            "type": "git",
+            "url": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/OGUSystem"
+        }
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.6.1-preview1-24530-04"
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+        }
+    },
+
+    "buildOptions": {
+        "outputName": "HQY.FutureOGU.Infrastructure",
+        "keyFile": "../../../.Globals/HQY.MyFuture.snk",
+        //"define": [ "GLOBALVERSION" ],
+        "compile": [
+            "../../../.Globals/*.cs"
+        ],
+        "xmlDoc": true
+    }
+}

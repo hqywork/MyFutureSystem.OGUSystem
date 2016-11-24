@@ -3,3 +3,24 @@
 ################################################################################
 
 *.suo
+/FutureOGU/.vs/restore.dg
+/FutureOGU/Src/DomainLayout/FutureOGU.DomainModel/bin/Debug/netstandard1.6
+/FutureOGU/Src/DomainLayout/FutureOGU.DomainModel/obj/Debug/netstandard1.6
+/FutureOGU/Src/DomainLayout/FutureOGU.DomainModel/FutureOGU.DomainModel.xproj.user
+/FutureOGU/Src/DomainLayout/FutureOGU.DomainModel/project.lock.json
+/FutureOGU/Src/DomainLayout/FutureOGU.DomainService/FutureOGU.DomainService.xproj.user
+/FutureOGU/Src/DomainLayout/FutureOGU.DomainService/project.lock.json
+/FutureOGU/Src/DomainLayout/Repositories/FutureOGU.EfSqlserver/bin/Debug/netstandard1.6
+/FutureOGU/Src/DomainLayout/Repositories/FutureOGU.EfSqlserver/obj/Debug/netstandard1.6
+/FutureOGU/Src/DomainLayout/Repositories/FutureOGU.EfSqlserver/FutureOGU.EfSqlserver.xproj.user
+/FutureOGU/Src/DomainLayout/Repositories/FutureOGU.EfSqlserver/project.lock.json
+/FutureOGU/Src/InfrastructureLayout/FutureOGU.Infrastructure/bin/Debug/netstandard1.6
+/FutureOGU/Src/InfrastructureLayout/FutureOGU.Infrastructure/obj/Debug/netstandard1.6
+/FutureOGU/Src/InfrastructureLayout/FutureOGU.Infrastructure/FutureOGU.Infrastructure.xproj.user
+/FutureOGU/Src/InfrastructureLayout/FutureOGU.Infrastructure/project.lock.json
+/FutureOGU/Src/UILayout/FutureOGU.ManagePortal/FutureOGU.ManagePortal.xproj.user
+/FutureOGU/Src/UILayout/FutureOGU.ManagePortal/project.lock.json
+/FutureOGU/UnitTest/FutureOGU.EfSqlserver.Test/bin/Debug/netcoreapp1.0
+/FutureOGU/UnitTest/FutureOGU.EfSqlserver.Test/obj/Debug/netcoreapp1.0
+/FutureOGU/UnitTest/FutureOGU.EfSqlserver.Test/FutureOGU.EfSqlserver.Test.xproj.user
+/FutureOGU/UnitTest/FutureOGU.EfSqlserver.Test/project.lock.json
