@@ -15,8 +15,8 @@
     },
 
     "dependencies": {
-        "NETStandard.Library": "1.6.1-preview1-24530-04",
-        "FutureOGU.Infrastructure": {
+        "NETStandard.Library": "1.6.1",
+        "HQY.FutureOGU.Infrastructure": {
             "target": "project"
         } 
     },
@@ -28,10 +28,9 @@
 
     "buildOptions": {
         "outputName": "HQY.FutureOGU.DomainModel",
-        "keyFile": "../../../.Globals/HQY.MyFuture.snk",
-        //"define": [ "GLOBALVERSION" ],
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
         "compile": [
-            "../../../.Globals/*.cs"
+            "../../.Globals/*.cs"
         ],
         "xmlDoc": true
     }

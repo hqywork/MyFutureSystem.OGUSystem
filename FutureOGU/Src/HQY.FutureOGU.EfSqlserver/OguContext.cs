@@ -7,6 +7,7 @@
 using HQY.FutureOGU.DomainModel.DataDictionary;
 using HQY.FutureOGU.EfSqlserver.DataDictionary;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace HQY.FutureOGU.EfSqlserver
 {
@@ -25,6 +26,19 @@ namespace HQY.FutureOGU.EfSqlserver
         #endregion
 
         #region Member of DbContext
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="optionsBuilder"></param>
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            IConfiguration config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+        }
 
         /// <summary>
         /// 

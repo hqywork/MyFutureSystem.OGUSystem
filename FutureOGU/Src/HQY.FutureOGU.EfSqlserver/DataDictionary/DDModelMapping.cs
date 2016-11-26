@@ -42,11 +42,10 @@ namespace HQY.FutureOGU.EfSqlserver.DataDictionary
             metadata.HasKey(entity => entity.Id)
                     .ForSqlServerIsClustered()
                     .ForSqlServerHasName("PK_DDCategory_Id");
-            metadata.Property(c => c.Id)
-                    .ValueGeneratedOnAdd();
 
             metadata.Property(c => c.Code)
                     .IsRequired()
+                    .IsUnicode(false)
                     .HasMaxLength(32);
             metadata.Property(c => c.Name)
                     .IsRequired()
@@ -55,9 +54,11 @@ namespace HQY.FutureOGU.EfSqlserver.DataDictionary
             metadata.Property(c => c.Value).HasMaxLength(255);
             metadata.Property(c => c.State).IsRequired();
             metadata.Property(c => c.CreateTime)
-                    .ValueGeneratedOnAdd();
+                    .ForSqlServerHasColumnType("datetime")
+                    .ForSqlServerHasDefaultValueSql("GETDATE()");
             metadata.Property(c => c.ModifyTime)
-                    .ValueGeneratedOnAddOrUpdate();
+                    .ForSqlServerHasColumnType("datetime")
+                    .ForSqlServerHasDefaultValueSql("GETDATE()");
 
             metadata.HasMany(p => p.ParaItems)
                     .WithOne(f => f.ParaCategory)
@@ -77,11 +78,10 @@ namespace HQY.FutureOGU.EfSqlserver.DataDictionary
             metadata.HasKey(entity => entity.Id)
                     .ForSqlServerIsClustered()
                     .ForSqlServerHasName("PK_DDItem_Id");
-            metadata.Property(c => c.Id)
-                    .ValueGeneratedOnAdd();
 
             metadata.Property(c => c.Code)
                     .IsRequired()
+                    .IsUnicode(false)
                     .HasMaxLength(32);
             metadata.Property(c => c.Name)
                     .IsRequired()
@@ -89,9 +89,11 @@ namespace HQY.FutureOGU.EfSqlserver.DataDictionary
             metadata.Property(c => c.Description).HasMaxLength(255);
             metadata.Property(c => c.Value).HasMaxLength(255);
             metadata.Property(c => c.CreateTime)
-                    .ValueGeneratedOnAdd();
+                    .ForSqlServerHasColumnType("datetime")
+                    .ForSqlServerHasDefaultValueSql("GETDATE()");
             metadata.Property(c => c.ModifyTime)
-                    .ValueGeneratedOnAddOrUpdate();
+                    .ForSqlServerHasColumnType("datetime")
+                    .ForSqlServerHasDefaultValueSql("GETDATE()");
 
             metadata.Property(c => c.Sort).IsRequired();
             metadata.Property(c => c.CategoryId).IsRequired();
