@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UILayout", "UILayout", "{8FBA3501-F903-472B-BD45-FBB5C1687D6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceLayout", "ServiceLayout", "{ADE87486-360F-4DA7-8757-732C197319E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainLayout", "DomainLayout", "{16BA4CA8-972B-420A-8BBE-2EEEEBC8FA07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{9AECFCC5-F9A9-412A-966F-CEC115A0353F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC68F314-5797-4F96-9FA8-0F0C443C46A4}"
+	ProjectSection(SolutionItems) = preProject
+		FutureOGU.sln.DotSettings = FutureOGU.sln.DotSettings
+		global.json = global.json
+		NuGet.config = NuGet.config
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		__JSONSchema = http://json.schemastore.org/global
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{45C20421-1E86-4CE0-811F-353E747776A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{C65EC1CD-6116-4098-ADC9-D0DAB9AD742A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Globals", ".Globals", "{F374A8CD-1FBF-416E-A2A9-56C1C8595069}"
+	ProjectSection(SolutionItems) = preProject
+		.Globals\GlobalsAssemblyInfo.cs = .Globals\GlobalsAssemblyInfo.cs
+		.Globals\GlobalVersionInfo.cs = .Globals\GlobalVersionInfo.cs
+		.Globals\HQY.MyFuture.snk = .Globals\HQY.MyFuture.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfrastructureLayout", "InfrastructureLayout", "{158D0E26-E814-4108-B3B5-01034094FE0A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HQY.Future.OGU.DomainService", "Src\HQY.Future.OGU.DomainService\HQY.Future.OGU.DomainService.xproj", "{843F5F49-97D2-453A-85B0-7CDCE01215A5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HQY.Future.OGU.ManagePortal", "Src\HQY.Future.OGU.ManagePortal\HQY.Future.OGU.ManagePortal.xproj", "{EE98E953-8899-4F3D-BD71-AAF7FBE5B2BA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MigrationStartupProject", "Src\MigrationStartupProject\MigrationStartupProject.xproj", "{CC544351-EAA7-4953-987B-C286A56308F7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Future.OGU.DomainModel", "Src\HQY.Future.OGU.DomainModel\Future.OGU.DomainModel.xproj", "{86580EEA-89A8-4F3D-924D-0F5731B21386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843F5F49-97D2-453A-85B0-7CDCE01215A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843F5F49-97D2-453A-85B0-7CDCE01215A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843F5F49-97D2-453A-85B0-7CDCE01215A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843F5F49-97D2-453A-85B0-7CDCE01215A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE98E953-8899-4F3D-BD71-AAF7FBE5B2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE98E953-8899-4F3D-BD71-AAF7FBE5B2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE98E953-8899-4F3D-BD71-AAF7FBE5B2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE98E953-8899-4F3D-BD71-AAF7FBE5B2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC544351-EAA7-4953-987B-C286A56308F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC544351-EAA7-4953-987B-C286A56308F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC544351-EAA7-4953-987B-C286A56308F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC544351-EAA7-4953-987B-C286A56308F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86580EEA-89A8-4F3D-924D-0F5731B21386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86580EEA-89A8-4F3D-924D-0F5731B21386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86580EEA-89A8-4F3D-924D-0F5731B21386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86580EEA-89A8-4F3D-924D-0F5731B21386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FBA3501-F903-472B-BD45-FBB5C1687D6C} = {45C20421-1E86-4CE0-811F-353E747776A6}
+		{ADE87486-360F-4DA7-8757-732C197319E8} = {45C20421-1E86-4CE0-811F-353E747776A6}
+		{16BA4CA8-972B-420A-8BBE-2EEEEBC8FA07} = {45C20421-1E86-4CE0-811F-353E747776A6}
+		{9AECFCC5-F9A9-412A-966F-CEC115A0353F} = {16BA4CA8-972B-420A-8BBE-2EEEEBC8FA07}
+		{158D0E26-E814-4108-B3B5-01034094FE0A} = {45C20421-1E86-4CE0-811F-353E747776A6}
+		{843F5F49-97D2-453A-85B0-7CDCE01215A5} = {16BA4CA8-972B-420A-8BBE-2EEEEBC8FA07}
+		{EE98E953-8899-4F3D-BD71-AAF7FBE5B2BA} = {8FBA3501-F903-472B-BD45-FBB5C1687D6C}
+		{CC544351-EAA7-4953-987B-C286A56308F7} = {45C20421-1E86-4CE0-811F-353E747776A6}
+		{86580EEA-89A8-4F3D-924D-0F5731B21386} = {16BA4CA8-972B-420A-8BBE-2EEEEBC8FA07}
+	EndGlobalSection
+EndGlobal

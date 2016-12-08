@@ -1,0 +1,35 @@
+﻿{
+    "version": "0.1.0-beta-*",
+    "title": "HQY.Future.OGU.DomainModel",
+    "description": "华奇英工作室未来系统—组织机构用户业务领域模型",
+    "authors": [ "HQYWORK" ],
+    "copyright": "Copyright © HQYWORK",
+    "packOptions": {
+        "owners": [ "ZHANGQ" ],
+        "tags": [ "Future System", "OGU", "Domain Model", "DDD" ],
+        "projectUrl": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/OGUSystem",
+        "repository": {
+            "type": "git",
+            "url": "http://hqy-tms:8080/tfs/MyFutureSystemCollection/MyFutureSystem.Home/_git/OGUSystem"
+        }
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.6.1",
+        "HQY.Future.Infrastructure": "0.1.0-beta-*"
+    },
+
+    "frameworks": {
+        "netstandard1.6": {
+        }
+    },
+
+    "buildOptions": {
+        "outputName": "HQY.Future.OGU.DomainModel",
+        "keyFile": "../../.Globals/HQY.MyFuture.snk",
+        "compile": [
+            "../../.Globals/*.cs"
+        ],
+        "xmlDoc": true
+    }
+}
